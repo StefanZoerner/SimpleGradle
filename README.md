@@ -1,4 +1,4 @@
 SimpleGradle
 ============
 
-Simple project fpr Gradle, Jenkins etc. tests
+Simple project for Gradle, Jenkins etc. tests
