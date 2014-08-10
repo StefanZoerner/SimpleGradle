@@ -5,7 +5,6 @@ package math;
  */
 public class Calculator {
     public int plus(int a, int b) {
-        FEHLER
         return a + b;
     }
 }
