@@ -4,7 +4,8 @@ package math;
  * Created by stefanz on 09.08.14.
  */
 public class Calculator {
-    public int plus (int a, int b) {
+    public int plus(int a, int b) {
+        FEHLER
         return a + b;
     }
 }
