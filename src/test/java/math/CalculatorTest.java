@@ -14,4 +14,11 @@ public class CalculatorTest {
         int result = calc.plus(5, 7);
         Assert.assertEquals(12, result);
     }
+
+    @Test
+    public void addZero() {
+        Calculator calc = new Calculator();
+        int result = calc.plus(8, 0);
+        Assert.assertEquals(8, result);
+    }
 }
