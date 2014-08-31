@@ -16,6 +16,13 @@ public class CalculatorTest {
     }
 
     @Test
+    public void multiplyTwoNumbers() {
+        Calculator calc = new Calculator();
+        int result = calc.mal(2, -7);
+        Assert.assertEquals(-14, result);
+    }
+
+    @Test
     public void addZero() {
         Calculator calc = new Calculator();
         int result = calc.plus(8, 0);
