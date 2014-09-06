@@ -4,6 +4,13 @@ apply plugin: "sonar-runner"
 sourceCompatibility = 1.7
 version = '1.0'
 
+sonarRunner {
+    sonarProperties {
+        property "sonar.jdbc.url", "jdbc:mysql://v31327.1blu.de:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true"
+        property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
+    }
+}
+
 repositories {
     mavenCentral()
 }
