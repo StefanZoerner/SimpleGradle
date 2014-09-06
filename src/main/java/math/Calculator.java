@@ -10,6 +10,11 @@ public class Calculator {
     }
 
     public int mal(int a, int b) {
+
+        if (false) {
+            System.out.println("Hallo");
+        }
+
         return a * b;
     }
 
